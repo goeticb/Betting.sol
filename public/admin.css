@@ -1,0 +1,19 @@
+body{
+    background-color: #002347;
+}
+h1{
+    margin-top: 15px;
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+.funk > * {
+    margin: 5px 0;
+}
+.modal-title{
+    color: red;
+}
+#modal-text{
+    color: black;
+}

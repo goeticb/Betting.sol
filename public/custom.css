@@ -1,0 +1,68 @@
+.container{
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.betBtn{
+    background-color: #4e4950;
+    color: whitesmoke;
+    margin-right: 5px;
+} 
+#matchesEl{
+    background-color: #003366;
+    padding: 30px;
+    border-radius:30px;
+}
+body{
+    background-color: #002347;
+}
+.match{
+    background-color: #236ca7;
+    margin-bottom: 20px;
+    border-radius:10px;
+}
+#betting{
+    color: #3500d3;
+}
+#address{
+    color: whitesmoke;
+}
+#balance{
+    color: whitesmoke;
+}
+#allMatches{
+    color: whitesmoke;
+}
+#gameDay{
+    color: whitesmoke;
+}
+#rivals{
+    color: whitesmoke;
+}
+input{
+    background-color: #4e4950 ;
+    color: whitesmoke;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+#logo{
+    width: 400px;
+    height: 100px;
+}
+#loginBtn{
+    background-color: #0C0032;
+    border: none;
+    width: 120px;
+    height: 55px;
+    
+}
+#footer{
+    background-color: #212832;
+    color: whitesmoke;
+    border-radius:10px;
+    position: relative;
+    bottom: 0;
+
+}
+.modal-title{
+    color: red;
+}

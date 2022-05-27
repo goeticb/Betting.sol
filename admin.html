@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="container">
+                <p id="address" class="float-end"></p>
+                <h1>
+                    Admin board
+                    <button id="loginBtn" type="button" class="button btn btn-primary float-end"><b>Login</b></button>
+                </h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container funk">
+                <p>
+                    Add match:
+                </p>
+                <input type="text" placeholder="competition" id="competitionEl">
+                <input type="text" placeholder="teamA" id="teamAEl">
+                <input type="text" placeholder="teamB" id="teamBEl">
+                <input type="number" placeholder="tie" id="tieEl">
+                <input type="number" placeholder="teamAWin" id="teamAWinEl">
+                <input type="number" placeholder="teamBWin" id="teamBWinEl">
+                <input type="text" placeholder="gameDay" id="gameDayEl">
+                <br>
+                <button id="addMatchBtn">Add match</button>
+            </div>
+            <div class="container funk">
+                <p>
+                    Pay winning bets:
+                </p>
+                <input type="number" placeholder="matchID" id="matchIDEl">
+                <input type="text" placeholder="winningType" id="winningTypeEl">
+                <br>
+                <button id="payWinningBetsBtn">Pay winning bets</button>
+            </div>
+            <div class="container funk">
+                <p>
+                    Fund:
+                </p>
+                <input type="number" placeholder="amount (eth)" id="fundETH">
+                <br>
+                <button id="fundBtn">Fund the contract</button>
+            </div>
+            <div class="container funk">
+                <p>
+                    Widthdraw:
+                </p>
+                <input type="number" placeholder="amount (eth)" id="widthdrawETH">
+                <br>
+                <button id="widthdrawBtn">Widthdraw from contract</button>
+            </div>
+        </div>
+
+        <script src="admin.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
